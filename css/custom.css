@@ -1,0 +1,13 @@
+.container nav {
+    margin-bottom: 20px;
+    padding:10px;
+}
+.element {
+    color: #ec5f67;
+}
+.navbar-brand {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: -8px;
+    border-color: #ddd;
+}
