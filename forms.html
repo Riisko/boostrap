@@ -26,22 +26,43 @@
     </div>
     <div class="collapse navbar-collapse" id="collapsemenu">
     <ul class="nav nav-tabs nav-justified">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="buttons.html">Buttons</a></li>
         <li><a href="navigations.html">Navigations</a></li>
         <li><a href="messages.html">Messages</a></li>
         <li><a href="articles.html">Articles</a></li>
-        <li><a href="forms.html">Forms</a></li>
+        <li class="active"><a href="forms.html">Forms</a></li>
     </ul>
     </div>
 </nav>
 <section class="container">
-    <article>
-        <h1>Hello World!</h1>
-        <p>This project is dedicated to Bootstrap. To experiment, learn and play around.</p>
-        <p>Each menu item is dedicated to a certain area of interest. It also serves 
-        as a way to keep things organised.</p>
-    </article>
+    <h1>Forms</h1>
+    <div class="row col-sm-4 ">
+        <form>
+            <div class="form-group">
+                <label for="inputName">Name:</label>
+                <input class="form-control" type="text" id="inputName"name="name" placeholder="Your Name"/>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email:</label>
+                <input class="form-control" type="text" id="inputEmail" name="email" placeholder="your@email.com"/>
+            </div>
+            <div class="form-group">
+                <label for="inputFaction">Faction:</label>
+                <select class="form-control" id="inputFaction">
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputComment">Comment:</label>
+                <textarea class="form-control" type="textarea" id="inputCommet" 
+                name="comment" placeholder="Your comment here">
+                </textarea>
+            </div>
+        </form>
+        <input class="btn btn-defaul" type="submit" value="submit"/>
+    </div>
 </section>
     </body>
 </html>
